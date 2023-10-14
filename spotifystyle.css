@@ -1,0 +1,137 @@
+body{
+    background-color: aquamarine;
+    }
+
+ *{
+    margin: 0;
+    padding: 0;
+ }   
+
+ .navbar{
+     height: 70px;
+     background-color: black;
+     color: white;
+     display: flex;
+     align-items:center;
+     gap: 5px;
+     
+ }   
+
+ .nav1{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+ }
+
+ .logo{
+    background-image: url("logo.png");
+    background-size: cover;
+    height: 70px;
+    width: 70px;
+ }
+ .spotify{
+    font-weight: bold;
+    font-size: larger;
+    }
+   
+    
+   
+  .search-input{
+    width: 800px;
+    height: 40px;
+    font-size: 1rem;
+    
+  }  
+
+ input::placeholder{
+    font-weight: bold;
+    text-align: center;
+
+ }
+
+ .container{
+   min-height: 75vh;
+   background-color: rgb(177, 231, 177);
+   color: white;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url("bg.jpg");
+   flex-direction: column;
+   
+
+ }
+
+ .bottom{
+   position: sticky;
+   bottom: 0;
+   height: 230px;
+   background-color: black;
+   color: white;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+ }
+
+ #myProgressBar{
+   width: 130vh;
+   cursor: pointer;
+ }
+
+ .icons{
+   margin: 30px;
+}
+
+
+
+ .icons i {
+  cursor: pointer;
+   color: aliceblue;
+   width: 50px;
+   height: 50px;
+  }
+
+  .songitemcontainer{
+    margin-top: 20px;
+  }
+ 
+ .songitems{
+  height: 50px;
+  background-color: white;
+  color: black;
+  display: flex;
+  margin: 20px 0;
+  justify-content: space-between;
+  align-items: center;
+  width: 30%;
+  border-radius: 34px;
+}
+
+.songitems img {
+  width: 43px;
+  margin: 0 23px 0;
+  border-radius: 34px;
+}
+
+
+
+.timestap{
+  margin: 0 23px;
+}
+.timestap i{
+   cursor: pointer;
+}
+
+.songinfo{
+  position: absolute;
+  left: 17vh;
+  margin-top: 50px;
+}
+.songinfo img{
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
